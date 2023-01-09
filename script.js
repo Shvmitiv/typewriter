@@ -17,10 +17,4 @@ const copytext = ()=>{
     charVal.select()
     charVal.setSelectionRange(0,999); // for mobile
     navigator.clipboard.writeText(charVal.value); // important api for copt to clip board
-    
 }
-
-
-
-
-
